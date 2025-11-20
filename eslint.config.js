@@ -33,8 +33,6 @@ export default defineConfig([
       globals: globals.browser,
     },
     plugins: {
-      'react-hooks': reactHooks,
-      'react-refresh': reactRefresh,
       prettier: prettierPlugin,
       import: importPlugin,
       'unused-imports': unusedImports,
